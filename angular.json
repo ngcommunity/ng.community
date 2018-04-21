@@ -99,6 +99,11 @@
                 "input": "projects/ngcommunity/src/assets",
                 "output": "/assets"
               }
+            ],
+            "codeCoverageExclude": [
+              "projects/ngcommunity/src/test.ts",
+              "projects/ngcommunity/src/polyfills.ts",
+              "projects/ngcommunity/src/environments/**/*"
             ]
           }
         },
