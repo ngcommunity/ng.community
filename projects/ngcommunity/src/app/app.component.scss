@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar {
+  padding: 0 16px 0 0;
+}
+
+button {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 250px;
+  box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}

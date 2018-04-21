@@ -1,0 +1,12 @@
+@import '~@angular/material/theming';
+
+@include mat-core;
+
+$ng-community-primary: mat-palette($mat-blue, 700, 600, 800);
+$ng-community-accent: mat-palette($mat-red, 700, 600, 800);
+
+$ng-community-warn: mat-palette($mat-red);
+
+$ng-community-theme: mat-light-theme($ng-community-primary, $ng-community-accent, $ng-community-warn);
+
+@include angular-material-theme($ng-community-theme);
